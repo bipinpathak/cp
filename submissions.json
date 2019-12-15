@@ -11492,6 +11492,22 @@
     ],
     "timestamp": "Mar/04/2022 23:54"
   },
+  "CF66901263": {
+    "contest_id": 1281,
+    "language": "GNU C++14",
+    "path": "codeforces/1281/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Suffix Three",
+    "problem_url": "https://codeforces.com/contest/1281/problem/A",
+    "submission_id": "CF66901263",
+    "submission_url": "https://codeforces.com/contest/1281/submission/66901263",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/15/2019 10:40"
+  },
   "CF83948691": {
     "contest_id": 1367,
     "language": "GNU C++14",
