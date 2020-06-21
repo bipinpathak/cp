@@ -1,44 +1,45 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool isPowerOfTwo(int n)
+
+const int N = 50000;
+
+void player_1()
 {
-    while (n % 2 == 0)
-    {
-        n /= 2;
-    }
-    return n == 1;
+    cout << "Ashishgup" << endl;
 }
-bool isPrime(int n)
+
+void player_2()
 {
-    if (n == 3)
-    {
-        return true;
-    }
-    if (n < 3)
-    {
-        return false;
-    }
-    int i = 3;
-    while (i * i <= n && n % i != 0)
-    {
-        i += 2;
-    }
-    return n % i;
+    cout << "FastestFinger" << endl;
 }
+
+bool check_prime(int n)
+{
+    for (int i = 2; i < min(N, n); i++)
+        if (n % i == 0)
+            return 0;
+    return 1;
+}
+
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int tc;
+    cin >> tc;
+    while (tc--)
     {
-        int n, N, a = 0, b = 0, i = 3;
-        string ans = "Ashishgup";
+        int n;
         cin >> n;
-        if (n == 1 || (n > 2 && isPowerOfTwo(n)) || (n % 2 == 0 && n % 4 && isPrime(n / 2)))
+        bool lose = (n == 1);
+        if (n > 2 && n % 2 == 0)
         {
-            ans = "FastestFinger";
+            if ((n & (n - 1)) == 0)
+                lose = 1;
+            else if (n % 4 != 0 && check_prime(n / 2))
+                lose = 1;
         }
-        cout << ans << endl;
+        if (lose)
+            player_2();
+        else
+            player_1();
     }
-    return 0;
 }
