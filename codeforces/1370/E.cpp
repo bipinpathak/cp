@@ -1,15 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int countOne(string s)
 {
     int count = 0;
     for (char c : s)
+    {
         if (c == '1')
+        {
             count++;
+        }
+    }
     return count;
 }
-
 int main()
 {
     int n, i, ans = -1;
@@ -25,15 +27,27 @@ int main()
             {
                 if (s[i] == '1')
                 {
-                    up++;
-                    if (down)
+                    if (down == 0)
+                    {
+                        up++;
+                    }
+                    else
+                    {
                         down--;
+                        up++;
+                    }
                 }
                 else
                 {
-                    down++;
-                    if (up)
+                    if (up == 0)
+                    {
+                        down++;
+                    }
+                    else
+                    {
                         up--;
+                        down++;
+                    }
                 }
             }
         }
