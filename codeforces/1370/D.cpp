@@ -40,8 +40,6 @@ void binSearch(vector<int> &a, int k)
 }
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
     int n, k, i;
     cin >> n >> k;
     vector<int> a(n);
