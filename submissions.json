@@ -18437,6 +18437,23 @@
     ],
     "timestamp": "Jul/03/2020 11:45"
   },
+  "CF86132308": {
+    "contest_id": 1363,
+    "language": "GNU C++14",
+    "path": "codeforces/1363/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Subsequence Hate",
+    "problem_url": "https://codeforces.com/contest/1363/problem/B",
+    "submission_id": "CF86132308",
+    "submission_url": "https://codeforces.com/contest/1363/submission/86132308",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Jul/06/2020 19:48"
+  },
   "CF86165314": {
     "contest_id": 1373,
     "language": "GNU C++14",
