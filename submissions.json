@@ -18437,6 +18437,24 @@
     ],
     "timestamp": "Jul/03/2020 11:45"
   },
+  "CF86173848": {
+    "contest_id": 1359,
+    "language": "GNU C++14",
+    "path": "codeforces/1359/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Berland Poker",
+    "problem_url": "https://codeforces.com/contest/1359/problem/A",
+    "submission_id": "CF86173848",
+    "submission_url": "https://codeforces.com/contest/1359/submission/86173848",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jul/07/2020 11:31"
+  },
   "CF86195815": {
     "contest_id": 1359,
     "language": "GNU C++14",
