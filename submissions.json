@@ -20407,6 +20407,24 @@
     ],
     "timestamp": "Jul/29/2020 20:09"
   },
+  "CF88571837": {
+    "contest_id": 342,
+    "language": "GNU C++17",
+    "path": "codeforces/342/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Xenia and Spies",
+    "problem_url": "https://codeforces.com/contest/342/problem/B",
+    "submission_id": "CF88571837",
+    "submission_url": "https://codeforces.com/contest/342/submission/88571837",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jul/31/2020 13:46"
+  },
   "CF88608226": {
     "contest_id": 1208,
     "language": "GNU C++17",
