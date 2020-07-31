@@ -20407,6 +20407,23 @@
     ],
     "timestamp": "Jul/29/2020 20:09"
   },
+  "CF88568120": {
+    "contest_id": 245,
+    "language": "GNU C++17",
+    "path": "codeforces/245/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Restoring Table",
+    "problem_url": "https://codeforces.com/contest/245/problem/D",
+    "submission_id": "CF88568120",
+    "submission_url": "https://codeforces.com/contest/245/submission/88568120",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Jul/31/2020 13:00"
+  },
   "CF88571837": {
     "contest_id": 342,
     "language": "GNU C++17",
