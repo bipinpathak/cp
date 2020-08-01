@@ -20407,6 +20407,22 @@
     ],
     "timestamp": "Jul/29/2020 20:09"
   },
+  "CF88674719": {
+    "contest_id": 643,
+    "language": "GNU C++17",
+    "path": "codeforces/643/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Colors",
+    "problem_url": "https://codeforces.com/contest/643/problem/A",
+    "submission_id": "CF88674719",
+    "submission_url": "https://codeforces.com/contest/643/submission/88674719",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Aug/01/2020 20:27"
+  },
   "CF88697621": {
     "contest_id": 1340,
     "language": "GNU C++17",
