@@ -20407,6 +20407,24 @@
     ],
     "timestamp": "Jul/29/2020 20:09"
   },
+  "CF88664112": {
+    "contest_id": 1114,
+    "language": "GNU C++17",
+    "path": "codeforces/1114/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Array Partitioning Task",
+    "problem_url": "https://codeforces.com/contest/1114/problem/B",
+    "submission_id": "CF88664112",
+    "submission_url": "https://codeforces.com/contest/1114/submission/88664112",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Aug/01/2020 18:03"
+  },
   "CF88674719": {
     "contest_id": 643,
     "language": "GNU C++17",
