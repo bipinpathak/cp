@@ -20407,6 +20407,25 @@
     ],
     "timestamp": "Jul/29/2020 20:09"
   },
+  "CF88697621": {
+    "contest_id": 1340,
+    "language": "GNU C++17",
+    "path": "codeforces/1340/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nastya and Strange Generator",
+    "problem_url": "https://codeforces.com/contest/1340/problem/A",
+    "submission_id": "CF88697621",
+    "submission_url": "https://codeforces.com/contest/1340/submission/88697621",
+    "tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Aug/02/2020 06:24"
+  },
   "CF88722332": {
     "contest_id": 608,
     "language": "GNU C++17",
