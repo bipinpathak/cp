@@ -20407,6 +20407,24 @@
     ],
     "timestamp": "Jul/29/2020 20:09"
   },
+  "CF89555030": {
+    "contest_id": 769,
+    "language": "GNU C++17",
+    "path": "codeforces/769/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Year of University Entrance",
+    "problem_url": "https://codeforces.com/contest/769/problem/A",
+    "submission_id": "CF89555030",
+    "submission_url": "https://codeforces.com/contest/769/submission/89555030",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Aug/11/2020 12:21"
+  },
   "CF90072680": {
     "contest_id": 1354,
     "language": "GNU C++17",
