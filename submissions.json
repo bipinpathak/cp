@@ -10256,6 +10256,25 @@
     ],
     "timestamp": "Aug/09/2020 21:07"
   },
+  "CF89551730": {
+    "contest_id": 875,
+    "language": "GNU C++17",
+    "path": "codeforces/875/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sorting the Coins",
+    "problem_url": "https://codeforces.com/contest/875/problem/B",
+    "submission_id": "CF89551730",
+    "submission_url": "https://codeforces.com/contest/875/submission/89551730",
+    "tags": [
+      "dsu",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Aug/11/2020 11:25"
+  },
   "CF89555319": {
     "contest_id": 892,
     "language": "GNU C++17",
