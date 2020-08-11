@@ -21019,6 +21019,23 @@
     ],
     "timestamp": "Aug/11/2020 12:21"
   },
+  "CF89561337": {
+    "contest_id": 1360,
+    "language": "GNU C++17",
+    "path": "codeforces/1360/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Minimal Square",
+    "problem_url": "https://codeforces.com/contest/1360/problem/A",
+    "submission_id": "CF89561337",
+    "submission_url": "https://codeforces.com/contest/1360/submission/89561337",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/11/2020 13:57"
+  },
   "CF89587088": {
     "contest_id": 911,
     "language": "GNU C++17",
