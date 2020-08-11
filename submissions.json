@@ -21019,6 +21019,23 @@
     ],
     "timestamp": "Aug/11/2020 12:21"
   },
+  "CF89556581": {
+    "contest_id": 609,
+    "language": "GNU C++17",
+    "path": "codeforces/609/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "\u041a\u043d\u0438\u0433\u0430 - \u043b\u0443\u0447\u0448\u0438\u0439 \u043f\u043e\u0434\u0430\u0440\u043e\u043a",
+    "problem_url": "https://codeforces.com/contest/609/problem/B",
+    "submission_id": "CF89556581",
+    "submission_url": "https://codeforces.com/contest/609/submission/89556581",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Aug/11/2020 12:45"
+  },
   "CF89561337": {
     "contest_id": 1360,
     "language": "GNU C++17",
