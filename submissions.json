@@ -21019,6 +21019,24 @@
     ],
     "timestamp": "Aug/11/2020 12:21"
   },
+  "CF89971685": {
+    "contest_id": 1398,
+    "language": "GNU C++17",
+    "path": "codeforces/1398/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Colored Rectangles",
+    "problem_url": "https://codeforces.com/contest/1398/problem/D",
+    "submission_id": "CF89971685",
+    "submission_url": "https://codeforces.com/contest/1398/submission/89971685",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Aug/15/2020 01:48"
+  },
   "CF90018083": {
     "contest_id": 1354,
     "language": "GNU C++17",
