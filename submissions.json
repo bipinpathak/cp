@@ -15102,6 +15102,25 @@
     ],
     "timestamp": "Jul/19/2020 17:10"
   },
+  "CF90072680": {
+    "contest_id": 1354,
+    "language": "GNU C++17",
+    "path": "codeforces/1354/C2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Not So Simple Polygon Embedding",
+    "problem_url": "https://codeforces.com/contest/1354/problem/C2",
+    "submission_id": "CF90072680",
+    "submission_url": "https://codeforces.com/contest/1354/submission/90072680",
+    "tags": [
+      "binary search",
+      "brute force",
+      "geometry",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Aug/16/2020 15:21"
+  },
   "CF90104426": {
     "contest_id": 1392,
     "language": "GNU C++17",
