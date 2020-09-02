@@ -15102,6 +15102,23 @@
     ],
     "timestamp": "Jul/19/2020 17:10"
   },
+  "CF91643284": {
+    "contest_id": 744,
+    "language": "GNU C++17",
+    "path": "codeforces/744/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hongcow Builds A Nation",
+    "problem_url": "https://codeforces.com/contest/744/problem/A",
+    "submission_id": "CF91643284",
+    "submission_url": "https://codeforces.com/contest/744/submission/91643284",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1500"
+    ],
+    "timestamp": "Sep/02/2020 18:42"
+  },
   "CF91660232": {
     "contest_id": 1304,
     "language": "GNU C++17",
