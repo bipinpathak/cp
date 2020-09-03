@@ -15102,6 +15102,23 @@
     ],
     "timestamp": "Jul/19/2020 17:10"
   },
+  "CF91750941": {
+    "contest_id": 263,
+    "language": "GNU C++17",
+    "path": "codeforces/263/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Cycle in Graph",
+    "problem_url": "https://codeforces.com/contest/263/problem/D",
+    "submission_id": "CF91750941",
+    "submission_url": "https://codeforces.com/contest/263/submission/91750941",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1800"
+    ],
+    "timestamp": "Sep/04/2020 01:58"
+  },
   "CF91803111": {
     "contest_id": 1409,
     "language": "GNU C++17",
