@@ -21550,6 +21550,22 @@
     ],
     "timestamp": "Sep/04/2020 20:56"
   },
+  "CF92034460": {
+    "contest_id": 1405,
+    "language": "GNU C++17",
+    "path": "codeforces/1405/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Permutation Forgery",
+    "problem_url": "https://codeforces.com/contest/1405/problem/A",
+    "submission_id": "CF92034460",
+    "submission_url": "https://codeforces.com/contest/1405/submission/92034460",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Sep/06/2020 20:18"
+  },
   "CF92046318": {
     "contest_id": 1405,
     "language": "GNU C++17",
