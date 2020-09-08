@@ -21550,6 +21550,22 @@
     ],
     "timestamp": "Sep/04/2020 20:56"
   },
+  "CF92180847": {
+    "contest_id": 949,
+    "language": "GNU C++17",
+    "path": "codeforces/949/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Zebras",
+    "problem_url": "https://codeforces.com/contest/949/problem/A",
+    "submission_id": "CF92180847",
+    "submission_url": "https://codeforces.com/contest/949/submission/92180847",
+    "tags": [
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Sep/08/2020 10:07"
+  },
   "CF92244861": {
     "contest_id": 1407,
     "language": "GNU C++17",
