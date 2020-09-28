@@ -11492,6 +11492,23 @@
     ],
     "timestamp": "Mar/04/2022 23:54"
   },
+  "CF94066395": {
+    "contest_id": 1426,
+    "language": "GNU C++17",
+    "path": "codeforces/1426/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Floor Number",
+    "problem_url": "https://codeforces.com/contest/1426/problem/A",
+    "submission_id": "CF94066395",
+    "submission_url": "https://codeforces.com/contest/1426/submission/94066395",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/28/2020 13:43"
+  },
   "CF94082043": {
     "contest_id": 1426,
     "language": "GNU C++17",
