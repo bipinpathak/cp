@@ -93,7 +93,10 @@ int main() {
 #endif
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-	solve();
+    int t=1;
+    while(t--) {
+        solve();
+    }
     return 0;
 }
 
