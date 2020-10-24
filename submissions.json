@@ -22482,6 +22482,22 @@
     ],
     "timestamp": "Oct/20/2020 20:34"
   },
+  "CF96512610": {
+    "contest_id": 1433,
+    "language": "GNU C++17",
+    "path": "codeforces/1433/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Zero Remainder Sum ",
+    "problem_url": "https://codeforces.com/contest/1433/problem/F",
+    "submission_id": "CF96512610",
+    "submission_url": "https://codeforces.com/contest/1433/submission/96512610",
+    "tags": [
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "Oct/24/2020 14:59"
+  },
   "CF96535677": {
     "contest_id": 1436,
     "language": "GNU C++17",
