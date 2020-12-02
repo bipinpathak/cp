@@ -58,15 +58,19 @@ void solve() {
 	}
 	map<ll, pair<int, int>> seen;
 	for(int i=0; i<k; i++) {
+		map<ll, pair<int, int>> curr;
 		for(int j=0; j<(int)grid[i].size()-1; j++) {
 			ll option=grid[i].back()-grid[i][j];
-			if(seen.find(option)!=seen.end() && seen[option].first!=i) {
+			if(seen.find(option)!=seen.end()) {
 				cout<<"YES"<<endl;
 				cout<<seen[option].first+1<<" "<<seen[option].second+1<<endl;
 				cout<<i+1<<" "<<j+1<<endl;
 				return;
 			}
-			seen[option]={i, j};
+			curr[option]={i, j};
+		}
+		for(auto j : curr) {
+			seen[j.first]=j.second;
 		}
 	}
 	cout<<"NO"<<endl;
