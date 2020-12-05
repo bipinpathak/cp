@@ -47,10 +47,10 @@ int dfs(int node, int parent, int &ans, vector<vector<int>> &adjacency) {
 		}
 		depths.push_back(dfs(next, node, ans, adjacency));
 	}
+	sort(depths.rbegin(), depths.rend());
 	if(depths.size()==0) {
 		return 1;
 	} 
-	sort(depths.rbegin(), depths.rend());
 	ans=max(ans, depths.front());
 	if(depths.size()>1 && (node || depths[0]==depths[1])) {
 		ans=max(ans, depths.front()+1);
