@@ -104,23 +104,58 @@ void solve() {
 	}
 	vector<vector<int>> ans;
 	if(n%2) {
-		for(int j=0; j<m; j++) {
-			if(a[n-1][j]) {
-				ans.push_back({n-1, j, n-2, j, n-2, j+(j?-1:+1)});
-				for(int k=0; k<6; k+=2) {
-					a[ans.back()[k]][ans.back()[k+1]]=!a[ans.back()[k]][ans.back()[k+1]];
+		for(int j=0; j+1<m; j++) {
+			if(!a[n-1][j]) {
+				continue;
+			}
+			vector<vector<int>> one, zero;
+			for(int x=n-2; x<n; x++) {
+				for(int y=j; y<j+2; y++) {
+					if(a[x][y]) {
+						one.push_back({x, y});
+					} else {
+						zero.push_back({x, y});
+					}
 				}
+			}
+			if(one.size()) {
+				handle(a, ans, one, zero);
 			}
 		}
 	}
 	if(m%2) {
-		for(int i=0; i<n; i++) {
-			if(a[i][m-1]) {
-				ans.push_back({i, m-1, i, m-2, i+(i?-1:1), m-2});
-				for(int k=0; k<6; k+=2) {
-					a[ans.back()[k]][ans.back()[k+1]]=!a[ans.back()[k]][ans.back()[k+1]];
+		for(int i=0; i+1<n; i++) {
+			if(!a[i][m-1]) {
+				continue;
+			}
+			vector<vector<int>> one, zero;
+			for(int x=i; x<i+2; x++) {
+				for(int y=m-2; y<m; y++) {
+					if(a[x][y]) {
+						one.push_back({x, y});
+					} else {
+						zero.push_back({x, y});
+					}
 				}
 			}
+			if(one.size()) {
+				handle(a, ans, one, zero);
+			}
+		}
+	}
+	if(a[n-1][m-1]) {
+		vector<vector<int>> one, zero;
+		for(int x=n-2; x<n; x++) {
+			for(int y=m-2; y<m; y++) {
+				if(a[x][y]) {
+					one.push_back({x, y});
+				} else {
+					zero.push_back({x, y});
+				}
+			}
+		}
+		if(one.size()) {
+			handle(a, ans, one, zero);
 		}
 	}
 	for(int i=0; i+1<n; i+=2) {
