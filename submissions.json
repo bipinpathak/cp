@@ -2959,6 +2959,25 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF101148598": {
+    "contest_id": 1451,
+    "language": "GNU C++17",
+    "path": "codeforces/1451/E2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E2",
+    "problem_name": "Bitwise Queries (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1451/problem/E2",
+    "submission_id": "CF101148598",
+    "submission_url": "https://codeforces.com/contest/1451/submission/101148598",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "*2300"
+    ],
+    "timestamp": "Dec/14/2020 12:53"
+  },
   "CF101148633": {
     "contest_id": 1451,
     "language": "GNU C++17",
