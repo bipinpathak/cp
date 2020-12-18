@@ -10,26 +10,29 @@ void solve() {
 		int x; cin>>x;
 		a[--x]=1;
 	}
-	int open=0, mandatoryMaxPairs=0, mandatoryMinPairs=0;
+	int open=0, change=0, ans=n+1;
 	for(int i=0; i<2*n; i++) {
 		if(a[i]) {
 			open++;
 		} else {
 			open--;
 		}
-		mandatoryMaxPairs=max(mandatoryMaxPairs, -open);
+		change=max(change, -open);
 	}
-	open=0;
+	//change=min number of pairs required to be of max type
+	ans-=change;
+	change=open=0;
 	reverse(a.begin(), a.end());
 	for(int i=0; i<2*n; i++) {
 		if(a[i]) {
-			open++;
+			open++;	
 		} else {
 			open--;
 		}
-		mandatoryMinPairs=max(mandatoryMinPairs, -open);
+		change=max(change, -open);
 	}
-	int ans=(n-mandatoryMaxPairs)-(mandatoryMinPairs)+1;
+	//change=min number of pairs required to be of min type
+	ans-=change;
 	cout<<ans<<endl;
     return;
 }
