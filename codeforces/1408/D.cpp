@@ -2,16 +2,17 @@
 using namespace std;
 typedef long long ll;
 void solve(){
-	int n, m, MAXX=1e6+3, ans=MAXX;
+	int n, m;
 	cin>>n>>m;
 	vector<vector<int>> robbers(n, vector<int> (2)), lights(m, vector<int> (2));
-	vector<int> yNeeded(MAXX);
 	for(auto &i : robbers) {
 		cin>>i[0]>>i[1];
 	}
 	for(auto &i : lights) {
 		cin>>i[0]>>i[1];
 	}
+	int MAXX=1e6+3, ans=MAXX;
+	vector<int> yNeeded(MAXX);
 	for(auto robber : robbers) {
 		for(auto light : lights) {
 			if(robber[0]<=light[0] && robber[1]<=light[1]) {
