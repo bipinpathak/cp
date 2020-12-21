@@ -4,19 +4,19 @@ typedef long long ll;
 void solve(){
 	int n, m;
 	cin>>n>>m;
-	vector<vector<int>> robbers(n, vector<int> (2)), lights(m, vector<int> (2));
+	vector<pair<int, int>> robbers(n), lights(m);
 	for(auto &i : robbers) {
-		cin>>i[0]>>i[1];
+		cin>>i.first>>i.second;
 	}
 	for(auto &i : lights) {
-		cin>>i[0]>>i[1];
+		cin>>i.first>>i.second;
 	}
 	int MAXX=1e6+3, ans=MAXX;
 	vector<int> yNeeded(MAXX);
 	for(auto robber : robbers) {
 		for(auto light : lights) {
-			if(robber[0]<=light[0] && robber[1]<=light[1]) {
-				yNeeded[light[0]-robber[0]]=max(yNeeded[light[0]-robber[0]], light[1]-robber[1]+1);
+			if(robber.first<=light.first && robber.second<=light.second) {
+				yNeeded[light.first-robber.first]=max(yNeeded[light.first-robber.first], light.second-robber.second+1);
 			}
 		}
 	}
