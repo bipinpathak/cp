@@ -3588,6 +3588,26 @@
     ],
     "timestamp": "Dec/18/2020 22:28"
   },
+  "CF102078143": {
+    "contest_id": 842,
+    "language": "GNU C++17",
+    "path": "codeforces/842/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ilya And The Tree",
+    "problem_url": "https://codeforces.com/contest/842/problem/C",
+    "submission_id": "CF102078143",
+    "submission_url": "https://codeforces.com/contest/842/submission/102078143",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "math",
+      "number theory",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Dec/23/2020 03:27"
+  },
   "CF102336286": {
     "contest_id": 1223,
     "language": "GNU C++17",
