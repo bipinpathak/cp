@@ -3588,6 +3588,25 @@
     ],
     "timestamp": "Dec/18/2020 22:28"
   },
+  "CF102057601": {
+    "contest_id": 1281,
+    "language": "GNU C++17",
+    "path": "codeforces/1281/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Beingawesomeism",
+    "problem_url": "https://codeforces.com/contest/1281/problem/D",
+    "submission_id": "CF102057601",
+    "submission_url": "https://codeforces.com/contest/1281/submission/102057601",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Dec/22/2020 21:30"
+  },
   "CF102063976": {
     "contest_id": 161,
     "language": "GNU C++17",
