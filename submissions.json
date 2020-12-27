@@ -3588,6 +3588,26 @@
     ],
     "timestamp": "Dec/18/2020 22:28"
   },
+  "CF102476858": {
+    "contest_id": 633,
+    "language": "GNU C++17",
+    "path": "codeforces/633/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Fibonacci-ish",
+    "problem_url": "https://codeforces.com/contest/633/problem/D",
+    "submission_id": "CF102476858",
+    "submission_url": "https://codeforces.com/contest/633/submission/102476858",
+    "tags": [
+      "brute force",
+      "dp",
+      "hashing",
+      "implementation",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Dec/27/2020 19:59"
+  },
   "CF102494004": {
     "contest_id": 1104,
     "language": "GNU C++17",
