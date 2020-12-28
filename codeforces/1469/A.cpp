@@ -4,10 +4,49 @@ typedef long long ll;
 
 bool solve() {
 	string s;
-	int n;
 	cin>>s;
-	n=s.size();
-	return (n%2==0 && s[0]!=')' && s[n-1]!='(');
+	int open=0, close=0, n=s.size();
+	queue<int> extra;
+	for(int i=0; i<n; i++) {
+		if(s[i]=='(') {
+			open++;	
+		} else if(s[i]==')') {
+			close++;
+		} else {
+			extra.push(i);
+		}
+		if(close>open && extra.size()) {
+			s[extra.front()]='(';
+			extra.pop();
+			open++;
+		}
+		if(close>open) {
+			return 0; 
+		}
+	}
+	reverse(s.begin(), s.end());
+	open=close=0;
+	while(extra.size()) {
+		extra.pop();
+	}
+	for(int i=0; i<n; i++) {
+		if(s[i]==')') {
+			open++;	
+		} else if(s[i]=='(') {
+			close++;
+		} else {
+			extra.push(i);
+		}
+		if(close>open && extra.size()) {
+			s[extra.front()]=')';
+			extra.pop();
+			open++;
+		}
+		if(close>open) {
+			return 0; 
+		}
+	}
+	return (extra.size()%2==0);
 }
 
 int main() {
