@@ -3,21 +3,31 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
-	int n, m, sum=0, aSum=0, bSum=0, x;
+	int n, m;
 	cin>>n;
+	vector<int> a(n);
 	for(int i=0; i<n; i++) {
-		cin>>x;
-		sum+=x;
-		aSum=max(aSum, sum);
+		cin>>a[i];
+		if(i) {
+			a[i]+=a[i-1];
+		}
 	}
 	cin>>m;
-	sum=0;
+	vector<int> b(m);
 	for(int i=0; i<m; i++) {
-		cin>>x;
-		sum+=x;
-		bSum=max(bSum, sum);
+		cin>>b[i];
+		if(i) {
+			b[i]+=b[i-1];
+		}
 	}
-	cout<<aSum+bSum<<endl;
+	int ans=0;
+	for(int first=0; first<=n; first++) {
+		for(int second=0; second<=m; second++) {
+			int aSum=(first?a[first-1]:0), bSum=(second?b[second-1]:0);
+			ans=max(ans, aSum+bSum);
+		}
+	}
+	cout<<ans<<endl;
     return;
 }
 
