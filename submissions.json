@@ -4704,6 +4704,24 @@
     ],
     "timestamp": "Dec/30/2020 22:19"
   },
+  "CF102863121": {
+    "contest_id": 1466,
+    "language": "GNU C++17",
+    "path": "codeforces/1466/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Canine poetry",
+    "problem_url": "https://codeforces.com/contest/1466/problem/C",
+    "submission_id": "CF102863121",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102863121",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Dec/31/2020 01:17"
+  },
   "CF102897559": {
     "contest_id": 1466,
     "language": "GNU C++17",
