@@ -3782,6 +3782,25 @@
     ],
     "timestamp": "Dec/31/2020 15:26"
   },
+  "CF102928782": {
+    "contest_id": 711,
+    "language": "GNU C++17",
+    "path": "codeforces/711/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Directed Roads",
+    "problem_url": "https://codeforces.com/contest/711/problem/D",
+    "submission_id": "CF102928782",
+    "submission_url": "https://codeforces.com/contest/711/submission/102928782",
+    "tags": [
+      "combinatorics",
+      "dfs and similar",
+      "graphs",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Dec/31/2020 22:50"
+  },
   "CF102932040": {
     "contest_id": 1345,
     "language": "GNU C++17",
