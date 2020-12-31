@@ -3782,6 +3782,23 @@
     ],
     "timestamp": "Dec/31/2020 15:26"
   },
+  "CF102908156": {
+    "contest_id": 711,
+    "language": "GNU C++17",
+    "path": "codeforces/711/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chris and Magic Square",
+    "problem_url": "https://codeforces.com/contest/711/problem/B",
+    "submission_id": "CF102908156",
+    "submission_url": "https://codeforces.com/contest/711/submission/102908156",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Dec/31/2020 17:23"
+  },
   "CF102928782": {
     "contest_id": 711,
     "language": "GNU C++17",
