@@ -4830,6 +4830,24 @@
     ],
     "timestamp": "Jan/01/2021 01:33"
   },
+  "CF103094688": {
+    "contest_id": 1332,
+    "language": "GNU C++17",
+    "path": "codeforces/1332/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Exercising Walk",
+    "problem_url": "https://codeforces.com/contest/1332/problem/A",
+    "submission_id": "CF103094688",
+    "submission_url": "https://codeforces.com/contest/1332/submission/103094688",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jan/03/2021 17:52"
+  },
   "CF103096785": {
     "contest_id": 1332,
     "language": "GNU C++17",
