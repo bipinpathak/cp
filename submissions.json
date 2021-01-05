@@ -5217,6 +5217,26 @@
     ],
     "timestamp": "Jan/05/2021 20:32"
   },
+  "CF103467714": {
+    "contest_id": 1471,
+    "language": "GNU C++17",
+    "path": "codeforces/1471/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Strange Definition",
+    "problem_url": "https://codeforces.com/contest/1471/problem/D",
+    "submission_id": "CF103467714",
+    "submission_url": "https://codeforces.com/contest/1471/submission/103467714",
+    "tags": [
+      "bitmasks",
+      "graphs",
+      "hashing",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Jan/05/2021 23:32"
+  },
   "CF103697252": {
     "contest_id": 1358,
     "language": "GNU C++17",
