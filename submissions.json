@@ -5217,6 +5217,25 @@
     ],
     "timestamp": "Jan/05/2021 20:32"
   },
+  "CF103874957": {
+    "contest_id": 1268,
+    "language": "GNU C++17",
+    "path": "codeforces/1268/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Long Beautiful Integer",
+    "problem_url": "https://codeforces.com/contest/1268/problem/A",
+    "submission_id": "CF103874957",
+    "submission_url": "https://codeforces.com/contest/1268/submission/103874957",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Jan/09/2021 17:09"
+  },
   "CF104028267": {
     "contest_id": 1360,
     "language": "GNU C++17",
