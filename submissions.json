@@ -5217,6 +5217,23 @@
     ],
     "timestamp": "Jan/05/2021 20:32"
   },
+  "CF104260608": {
+    "contest_id": 1312,
+    "language": "GNU C++17",
+    "path": "codeforces/1312/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Count the Arrays",
+    "problem_url": "https://codeforces.com/contest/1312/problem/D",
+    "submission_id": "CF104260608",
+    "submission_url": "https://codeforces.com/contest/1312/submission/104260608",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Jan/14/2021 15:34"
+  },
   "CF104267150": {
     "contest_id": 850,
     "language": "GNU C++17",
