@@ -3782,6 +3782,23 @@
     ],
     "timestamp": "Dec/31/2020 15:26"
   },
+  "CF105174583": {
+    "contest_id": 975,
+    "language": "GNU C++17",
+    "path": "codeforces/975/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Ghosts",
+    "problem_url": "https://codeforces.com/contest/975/problem/D",
+    "submission_id": "CF105174583",
+    "submission_url": "https://codeforces.com/contest/975/submission/105174583",
+    "tags": [
+      "geometry",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Jan/23/2021 23:41"
+  },
   "CF105182490": {
     "contest_id": 1408,
     "language": "GNU C++17",
