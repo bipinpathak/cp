@@ -34,9 +34,8 @@ void solve() {
 		a[i]=curr;
 		count--;
 	}
-	cout<<fixed<<setprecision(9);
 	for(int i=1; i<=n; i++) {
-		cout<<a[i]<<"\n";
+		printf("%.10f\n", a[i]);
 	}
     return;
 }
@@ -54,5 +53,4 @@ int main() {
     }
     return 0;
 }
-
 
