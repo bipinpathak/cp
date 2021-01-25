@@ -3782,6 +3782,24 @@
     ],
     "timestamp": "Dec/31/2020 15:26"
   },
+  "CF105393315": {
+    "contest_id": 1475,
+    "language": "GNU C++17",
+    "path": "codeforces/1475/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Advertising Agency",
+    "problem_url": "https://codeforces.com/contest/1475/problem/E",
+    "submission_id": "CF105393315",
+    "submission_url": "https://codeforces.com/contest/1475/submission/105393315",
+    "tags": [
+      "combinatorics",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jan/25/2021 22:15"
+  },
   "CF105398858": {
     "contest_id": 1475,
     "language": "GNU C++17",
