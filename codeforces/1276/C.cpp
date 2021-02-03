@@ -1,12 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
+map<int, int> f;
+bool custom(int a, int b) {
+    return f[a]>f[b];
+}
 
 void solve() {
     int n;
     cin>>n;
     vector<int> a(n);
-    map<int, int> f;
     for(auto &i : a) {
         cin>>i;
         f[i]++;
