@@ -53,12 +53,12 @@ void solve() {
     for(int i=0; i<ans; i++) {
         grid[i%row][(i/row+i%row)%col]=elements[i];
     }
-    cout<<ans<<"\n"<<row<<" "<<col<<"\n";
+    cout<<ans<<endl<<row<<" "<<col<<endl;
     for(auto &i : grid) {
         for(auto &j : i) {
             cout<<j<<" ";
         }
-        cout<<"\n";
+        cout<<endl;
     }
     return;
 }
