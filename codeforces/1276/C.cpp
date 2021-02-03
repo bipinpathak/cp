@@ -17,7 +17,7 @@ void solve() {
     vector<int> temp;
     vector<vector<int>> store;
     for(auto i : f) {
-            temp.push_back(i.second);
+            temp.emplace_back(i.second);
             store.push_back({i.second, i.first});
     }
     sort(temp.begin(), temp.end());
@@ -47,7 +47,7 @@ void solve() {
         key[0]=min(key[0], row);
         while((int)elements.size()<ans && key[0]) {
             key[0]--;
-            elements.push_back(key[1]);
+            elements.emplace_back(key[1]);
         }
         if((int)elements.size()==ans) {
             break;
@@ -56,12 +56,12 @@ void solve() {
     for(int i=0; i<ans; i++) {
         grid[i%row][(i/row+i%row)%col]=elements[i];
     }
-    cout<<ans<<endl<<row<<" "<<col<<endl;
+    cout<<ans<<"\n"<<row<<" "<<col<<"\n";
     for(auto &i : grid) {
         for(auto &j : i) {
             cout<<j<<" ";
         }
-        cout<<endl;
+        cout<<"\n";
     }
     return;
 }
