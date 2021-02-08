@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF106879286": {
+    "contest_id": 1480,
+    "language": "GNU C++17",
+    "path": "codeforces/1480/D2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D2",
+    "problem_name": "Painting the Array II",
+    "problem_url": "https://codeforces.com/contest/1480/problem/D2",
+    "submission_id": "CF106879286",
+    "submission_url": "https://codeforces.com/contest/1480/submission/106879286",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Feb/08/2021 11:37"
+  },
   "CF107856389": {
     "contest_id": 1486,
     "language": "GNU C++17",
