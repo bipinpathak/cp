@@ -4,24 +4,26 @@ using ll = long long;
 
 struct edge{
     int v, w;
-    edge(int vi, int wi) : v(vi), w(wi) {}
+    edge(int v, int w) : v(v), w(w) {}
 };
 
 void dijkstra(int s, vector<vector<edge>> &adjacency, vector<int> &dist) {
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> active;
+    set<pair<int, int>> active;
     dist[s]=0;
-    active.push({0, s});
+    active.insert({0, s});
     while(!active.empty()) {
-        auto [curr, u] = active.top();
-        active.pop();
+        auto [curr, u] = *active.begin();
+        active.erase(active.begin());
         if(dist[u]<curr) {
             continue;
         }
-        for(auto [v, w] : adjacency[u]) {
-            if(dist[v]>curr+w) {
-                dist[v]=curr+w;
-                active.push({dist[v], v});
-            }       
+        for(auto [v1, w1] : adjacency[u]) {
+            for(auto [v2, w2] : adjacency[v1]) {
+                if(dist[v2]>curr+pow((w1+w2), 2)) {
+                    dist[v2]=curr+pow((w1+w2), 2);
+                    active.insert({dist[v2], v2});
+                }       
+            }
         }
     }
     return;
@@ -30,44 +32,23 @@ void dijkstra(int s, vector<vector<edge>> &adjacency, vector<int> &dist) {
 void solve() {
     int n, m;
     cin>>n>>m;
-    vector<vector<edge>> given(n);
+    vector<vector<edge>> adjacency(n);
     while(m--) {
         int u, v, w;
         cin>>u>>v>>w;
         u--, v--;
         edge add(v, w);
-        given[u].push_back(add);
+        adjacency[u].push_back(add);
         add.v=u;
-        given[v].push_back(add);
+        adjacency[v].push_back(add);
     }
-    vector<vector<edge>> adjacency(101*n);
-    for(int u=0; u<n; u++) {
-        vector<int> have(51);
-        for(auto [v, w] : given[u]) {
-            have[w]=1;
+    vector<int> dist(n, INT_MAX);
+    dijkstra(0, adjacency, dist);
+    for(auto i : dist) {
+        if(i==INT_MAX) {
+            i=-1;
         }
-        for(int i=1; i<=50; i++) {
-            for(int j=1; j<=50 && have[i]; j++) {
-                if(have[j]) {
-                    edge add(101*u+50+j, 2*i*j);
-                    adjacency[101*u+i].push_back(add);
-                }
-            }
-        } 
-        for(auto [v, w] : given[u]) {
-            edge add(101*u+w, w*w);
-            adjacency[101*v].push_back(add);
-            add.v=101*v;
-            adjacency[101*u+50+w].push_back(add);
-        }
-    }
-    vector<int> ans(101*n, 1e9);
-    dijkstra(0, adjacency, ans);
-    for(int i=0; i<n; i++) {
-        if(ans[101*i]==(int)1e9) {
-            ans[101*i]=-1;
-        }
-        cout<<ans[101*i]<<" ";
+        cout<<i<<" ";
     }
     cout<<endl;
     return;
