@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF108192528": {
+    "contest_id": 1153,
+    "language": "GNU C++17",
+    "path": "codeforces/1153/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Serval and Snake",
+    "problem_url": "https://codeforces.com/contest/1153/problem/E",
+    "submission_id": "CF108192528",
+    "submission_url": "https://codeforces.com/contest/1153/submission/108192528",
+    "tags": [
+      "binary search",
+      "brute force",
+      "interactive",
+      "*2200"
+    ],
+    "timestamp": "Feb/22/2021 21:17"
+  },
   "CF108228698": {
     "contest_id": 1445,
     "language": "GNU C++17",
