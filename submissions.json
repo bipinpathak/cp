@@ -2959,6 +2959,22 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF109444212": {
+    "contest_id": 1285,
+    "language": "GNU C++17",
+    "path": "codeforces/1285/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mezo Playing Zoma",
+    "problem_url": "https://codeforces.com/contest/1285/problem/A",
+    "submission_id": "CF109444212",
+    "submission_url": "https://codeforces.com/contest/1285/submission/109444212",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/09/2021 12:23"
+  },
   "CF109446345": {
     "contest_id": 1285,
     "language": "GNU C++17",
