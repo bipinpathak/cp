@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF109535097": {
+    "contest_id": 1255,
+    "language": "GNU C++17",
+    "path": "codeforces/1255/E1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Send Boxes to Alice (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1255/problem/E1",
+    "submission_id": "CF109535097",
+    "submission_url": "https://codeforces.com/contest/1255/submission/109535097",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Mar/10/2021 12:03"
+  },
   "CF109535638": {
     "contest_id": 1255,
     "language": "GNU C++17",
