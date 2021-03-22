@@ -8,12 +8,11 @@ void solve() {
     vector<int> a(n), next(n), ans;
     for(int i=0; i<n; i++) {
         cin>>a[i];
-        next[i]=i+1;
+        next[i]=(i+1)%n;
     }
-    next[n-1]=0;
     deque<int> order;
     for(int i=0; i<n; i++) {
-        if(__gcd(a[i], a[next[i]])==1) {
+        if(__gcd(a[i], a[(i+1)%n])==1) {
             order.push_back(i);
         }
     }
