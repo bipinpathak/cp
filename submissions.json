@@ -2959,6 +2959,22 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF110960201": {
+    "contest_id": 464,
+    "language": "GNU C++17",
+    "path": "codeforces/464/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Substitutes in Number",
+    "problem_url": "https://codeforces.com/contest/464/problem/C",
+    "submission_id": "CF110960201",
+    "submission_url": "https://codeforces.com/contest/464/submission/110960201",
+    "tags": [
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "Mar/25/2021 14:41"
+  },
   "CF110985746": {
     "contest_id": 1506,
     "language": "GNU C++17",
