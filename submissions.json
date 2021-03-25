@@ -2959,6 +2959,23 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF110939738": {
+    "contest_id": 821,
+    "language": "GNU C++17",
+    "path": "codeforces/821/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Okabe and El Psy Kongroo",
+    "problem_url": "https://codeforces.com/contest/821/problem/E",
+    "submission_id": "CF110939738",
+    "submission_url": "https://codeforces.com/contest/821/submission/110939738",
+    "tags": [
+      "dp",
+      "matrices",
+      "*2100"
+    ],
+    "timestamp": "Mar/25/2021 08:42"
+  },
   "CF110960201": {
     "contest_id": 464,
     "language": "GNU C++17",
