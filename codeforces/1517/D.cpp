@@ -29,6 +29,7 @@ void solve() {
         }
         return;
     }
+    sort(edges.begin(), edges.end());
     vector<vector<int>> ans(n, vector<int> (m));
     k/=2;
     while(k--) {
@@ -69,3 +70,4 @@ int main() {
     cerr<<fixed<<setprecision(2)<<used<<" ms"<<endl;
     return 0;
 }
+
