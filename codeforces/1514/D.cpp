@@ -1,85 +1,46 @@
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
-
-int n=3e5;
-vector<int> a(n+1), seg(2*n+1);
-vector<vector<int>> f(n+1);
-
-int calc(int val, int l, int r) {
-    int ans=upper_bound(f[val].begin(), f[val].end(), r)-lower_bound(f[val].begin(), f[val].end(), l);
-    return ans;
+int a[300005],tree[1200005];
+vector<int> v[300005];
+int cnt(int l,int r,int c)
+{
+    return upper_bound(v[c].begin(),v[c].end(),r)-lower_bound(v[c].begin(),v[c].end(),l);
 }
-
-void build(int l, int r, int index) {
-    if(l==r) {
-        seg[index]=a[l];
-    } else {
-        int mid=l+(r-l)/2; 
-        build(l, mid, index+1);
-        build(mid+1, r, index+2*(mid-l+1));
-        int x=seg[index+1], y=seg[index+2*(mid-l+1)];
-        if(x!=y) {
-            int fx=calc(x, l, r), fy=calc(y, l, r);
-            if(fy>fx) {
-                x=y;
-            }
-        }
-        seg[index]=x;
+void build(int node,int st,int en)
+{
+    if (st==en)
+    tree[node]=a[st];
+    else
+    {
+        int mid=(st+en)/2;
+        build(2*node,st,mid);
+        build(2*node+1,mid+1,en);
+        tree[node]=(cnt(st,en,tree[2*node])>cnt(st,en,tree[2*node+1])? tree[2*node]:tree[2*node+1]);
     }
-    return;
 }
-
-int query(int l, int r, int index, int start, int end) {
-    if(l>end || r<start) {
-        return 0;
-    }
-    if(start<=l && r<=end) {
-        return calc(seg[index], start, end);
-    }
-    int mid=l+(r-l)/2;
-    return max(query(l, mid, index+1, start, end), query(mid+1, r, index+2*(mid-l+1), start, end));
-}
-
-void handle(int l, int r) {
-    int fx=query(1, n, 1, l, r),ans=1, total=r-l+1;
-    ans=max(ans, 2*fx-total); 
-    cout<<ans<<endl;
-    return;
-}
-
-void solve() {
-    int q;
-    cin>>n>>q;
-    for(int i=1; i<=n; i++) {
-        cin>>a[i];
-        f[a[i]].push_back(i);
-    }
-    build(1, n, 1);
-    while(q--) {
-        int l, r;
-        cin>>l>>r;
-        handle(l, r);
-    }
-    return;
-}
-
-int main() {
-#ifdef bipinpathak
-    (void)!freopen("input.txt", "r", stdin);
-    (void)!freopen("output.txt", "w", stdout);
-#endif
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    auto start=clock();
-    int t = 1;
-    for(int i=0; i<t; i++) {
-        //cout<<"Case #"<<i+1<<": ";
-        solve();
-    }
-    double used= (double) (clock()-start);
-    used=(used*1000)/CLOCKS_PER_SEC;
-    cerr<<fixed<<setprecision(2)<<used<<" ms"<<endl;
+int query(int node,int st,int en,int l,int r)
+{
+    if (en<l || st>r || r<l)
     return 0;
+    if (l<=st && en<=r)
+    return cnt(l,r,tree[node]);
+    int mid=(st+en)/2;
+    return max(query(2*node,st,mid,l,r),query(2*node+1,mid+1,en,l,r));
 }
-
+int main()
+{
+    int n,q;
+    scanf("%d%d",&n,&q);
+    for (int i=1;i<=n;i++)
+    {
+        scanf("%d",&a[i]);
+        v[a[i]].push_back(i);
+    }
+    build(1,1,n);
+    while (q--)
+    {
+        int l,r;
+        scanf("%d%d",&l,&r);
+        printf("%d\n",max(1,2*query(1,1,n,l,r)-(r-l+1)));
+    }
+}
