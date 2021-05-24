@@ -1,4 +1,20 @@
 {
+  "AC22893183": {
+    "contest_id": "arc120",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc120/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Uniformly Distributed",
+    "problem_url": "https://atcoder.jp/contests/arc120/tasks/arc120_b",
+    "submission_id": "AC22893183",
+    "submission_url": "https://atcoder.jp/contests/arc120/submissions/22893183",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/24/2021 17:10"
+  },
   "AC22912281": {
     "contest_id": "abc197",
     "language": "C++ (GCC 9.2.1)",
