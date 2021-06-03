@@ -1,4 +1,20 @@
 {
+  "AC23158148": {
+    "contest_id": "arc119",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc119/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "ARC Wrecker 2",
+    "problem_url": "https://atcoder.jp/contests/arc119/tasks/arc119_c",
+    "submission_id": "AC23158148",
+    "submission_url": "https://atcoder.jp/contests/arc119/submissions/23158148",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jun/04/2021 01:13"
+  },
   "AC23169576": {
     "contest_id": "abc203",
     "language": "C++ (GCC 9.2.1)",
