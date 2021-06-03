@@ -1,4 +1,20 @@
 {
+  "AC23158089": {
+    "contest_id": "arc120",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc120/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Bracket Score 2",
+    "problem_url": "https://atcoder.jp/contests/arc120/tasks/arc120_d",
+    "submission_id": "AC23158089",
+    "submission_url": "https://atcoder.jp/contests/arc120/submissions/23158089",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "Jun/04/2021 00:56"
+  },
   "AC23158148": {
     "contest_id": "arc119",
     "language": "C++ (GCC 9.2.1)",
