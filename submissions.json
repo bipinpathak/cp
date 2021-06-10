@@ -2959,6 +2959,26 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF119049921": {
+    "contest_id": 1538,
+    "language": "GNU C++17",
+    "path": "codeforces/1538/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Funny Substrings",
+    "problem_url": "https://codeforces.com/contest/1538/problem/E",
+    "submission_id": "CF119049921",
+    "submission_url": "https://codeforces.com/contest/1538/submission/119049921",
+    "tags": [
+      "data structures",
+      "hashing",
+      "implementation",
+      "matrices",
+      "strings",
+      "*2100"
+    ],
+    "timestamp": "Jun/10/2021 21:45"
+  },
   "CF119085782": {
     "contest_id": 1538,
     "language": "GNU C++17",
