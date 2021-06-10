@@ -2959,6 +2959,23 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF118975725": {
+    "contest_id": 1538,
+    "language": "GNU C++17",
+    "path": "codeforces/1538/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Friends and Candies",
+    "problem_url": "https://codeforces.com/contest/1538/problem/B",
+    "submission_id": "CF118975725",
+    "submission_url": "https://codeforces.com/contest/1538/submission/118975725",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/10/2021 20:12"
+  },
   "CF118981453": {
     "contest_id": 1538,
     "language": "GNU C++17",
