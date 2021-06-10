@@ -2,43 +2,6 @@
 using namespace std;
 using ll = long long;
 
-vector<int> primes;
-
-void pre() {
-    int n=1;
-    while(n*n<=1e9) {
-        n++;
-    }
-    vector<int> lp(n+1, 0);
-    for(int i=2; i<=n; i++) {
-        if(lp[i]==0) {
-            primes.push_back(i);
-        }
-        for(auto p : primes) {
-            if(p>lp[i] || p*i>n) {
-                break;
-            }
-            lp[p*i]=p;
-        }
-    }
-    return;
-}
-
-int count(int n) {
-    int ans=0;
-    for(auto p : primes) {
-        while(n%p==0) {
-            n/=p;
-            ans++;
-        }
-        if(n==1) {
-            break;
-        }
-    }
-    ans+=n>1;
-    return ans;
-}
-
 void solve() {
     int a, b, k;
     cin>>a>>b>>k;
@@ -48,8 +11,26 @@ void solve() {
     }
     int f=__gcd(a, b);
     int low=0, high=0;
-    low=(a>f)+(b>f);
-    high=count(a)+count(b);
+    if(a>f) {
+        low++;
+    }
+    if(b>f) {
+        low++;
+    }
+    for(int i=2; i*i<=a; i++) {
+        while(a%i==0) {
+            a/=i;
+            high++;
+        }
+    }
+    high+=a>1;
+    for(int i=2; i*i<=b; i++) {
+        while(b%i==0) {
+            b/=i;
+            high++;
+        }
+    }
+    high+=b>1;
     string ans="No";
     if(low<=k && k<=high) {
         ans="Yes";
@@ -68,7 +49,6 @@ int main() {
     auto start=clock();
     int t = 1;
     cin>>t;
-    pre();
     for(int i=0; i<t; i++) {
         //cout<<"Case #"<<i+1<<": ";
         solve();
@@ -78,3 +58,4 @@ int main() {
     cerr<<fixed<<setprecision(2)<<used<<" ms"<<endl;
     return 0;
 }
+
