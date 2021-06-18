@@ -2959,6 +2959,30 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF119898377": {
+    "contest_id": 1537,
+    "language": "GNU C++17",
+    "path": "codeforces/1537/E1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Erase and Extend (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1537/problem/E1",
+    "submission_id": "CF119898377",
+    "submission_url": "https://codeforces.com/contest/1537/submission/119898377",
+    "tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "greedy",
+      "hashing",
+      "implementation",
+      "string suffix structures",
+      "strings",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Jun/18/2021 21:52"
+  },
   "CF120062723": {
     "contest_id": 1539,
     "language": "GNU C++17",
