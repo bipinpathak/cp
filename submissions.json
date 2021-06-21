@@ -2959,6 +2959,25 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF120240370": {
+    "contest_id": 923,
+    "language": "GNU C++17",
+    "path": "codeforces/923/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Perfect Security",
+    "problem_url": "https://codeforces.com/contest/923/problem/C",
+    "submission_id": "CF120240370",
+    "submission_url": "https://codeforces.com/contest/923/submission/120240370",
+    "tags": [
+      "data structures",
+      "greedy",
+      "strings",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Jun/22/2021 00:54"
+  },
   "CF120242365": {
     "contest_id": 652,
     "language": "GNU C++17",
