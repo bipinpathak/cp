@@ -34,6 +34,7 @@ void solve() {
         a[i][2]=i;
     }
     sort(points.begin(), points.end());
+    points.erase(unique(points.begin(), points.end()), points.end());
     map<int, int> id;
     for(int i=0; i<n; i++) {
         id[points[i]]=i+1;
@@ -43,9 +44,8 @@ void solve() {
     vector<int> ans(n);
     for(int i=0; i<n; i++) {
         a[i][1]*=-1;
-        int right=id[a[i][1]];
-        ans[a[i][2]]=get(right, bit);
-        add(right, bit, 1);
+        ans[a[i][2]]=get(id[a[i][1]], bit);
+        add(id[a[i][1]], bit, 1);
     }
     for(auto i : ans) {
         cout<<i<<endl;
