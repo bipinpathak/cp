@@ -2959,6 +2959,25 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF120702394": {
+    "contest_id": 1294,
+    "language": "GNU C++17",
+    "path": "codeforces/1294/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Three Paths on a Tree",
+    "problem_url": "https://codeforces.com/contest/1294/problem/F",
+    "submission_id": "CF120702394",
+    "submission_url": "https://codeforces.com/contest/1294/submission/120702394",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Jun/27/2021 07:43"
+  },
   "CF120873760": {
     "contest_id": 900,
     "language": "GNU C++17",
