@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF120890849": {
+    "contest_id": 717,
+    "language": "GNU C++17",
+    "path": "codeforces/717/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Dexterina\u2019s Lab",
+    "problem_url": "https://codeforces.com/contest/717/problem/D",
+    "submission_id": "CF120890849",
+    "submission_url": "https://codeforces.com/contest/717/submission/120890849",
+    "tags": [
+      "games",
+      "matrices",
+      "probabilities",
+      "*1900"
+    ],
+    "timestamp": "Jun/29/2021 21:10"
+  },
   "CF120920985": {
     "contest_id": 1288,
     "language": "GNU C++17",
