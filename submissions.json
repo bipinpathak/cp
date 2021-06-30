@@ -2959,6 +2959,22 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF120920985": {
+    "contest_id": 1288,
+    "language": "GNU C++17",
+    "path": "codeforces/1288/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Messenger Simulator",
+    "problem_url": "https://codeforces.com/contest/1288/problem/E",
+    "submission_id": "CF120920985",
+    "submission_url": "https://codeforces.com/contest/1288/submission/120920985",
+    "tags": [
+      "data structures",
+      "*2000"
+    ],
+    "timestamp": "Jun/30/2021 09:54"
+  },
   "CF120950178": {
     "contest_id": 893,
     "language": "GNU C++17",
