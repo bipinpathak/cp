@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF121866756": {
+    "contest_id": 1236,
+    "language": "GNU C++17",
+    "path": "codeforces/1236/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Labs",
+    "problem_url": "https://codeforces.com/contest/1236/problem/C",
+    "submission_id": "CF121866756",
+    "submission_url": "https://codeforces.com/contest/1236/submission/121866756",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jul/10/2021 09:32"
+  },
   "CF121869813": {
     "contest_id": 1236,
     "language": "GNU C++17",
