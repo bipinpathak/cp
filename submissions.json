@@ -2959,6 +2959,22 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF121885422": {
+    "contest_id": 1174,
+    "language": "GNU C++17",
+    "path": "codeforces/1174/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ehab Is an Odd Person",
+    "problem_url": "https://codeforces.com/contest/1174/problem/B",
+    "submission_id": "CF121885422",
+    "submission_url": "https://codeforces.com/contest/1174/submission/121885422",
+    "tags": [
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/10/2021 14:00"
+  },
   "CF121886181": {
     "contest_id": 1174,
     "language": "GNU C++17",
