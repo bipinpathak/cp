@@ -10501,6 +10501,25 @@
     ],
     "timestamp": "Jul/14/2021 06:16"
   },
+  "CF122393461": {
+    "contest_id": 1278,
+    "language": "GNU C++17",
+    "path": "codeforces/1278/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Segment Tree",
+    "problem_url": "https://codeforces.com/contest/1278/problem/D",
+    "submission_id": "CF122393461",
+    "submission_url": "https://codeforces.com/contest/1278/submission/122393461",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Jul/14/2021 07:14"
+  },
   "CF122462317": {
     "contest_id": 1550,
     "language": "GNU C++17",
