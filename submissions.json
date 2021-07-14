@@ -2959,6 +2959,23 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF122391107": {
+    "contest_id": 1295,
+    "language": "GNU C++17",
+    "path": "codeforces/1295/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Permutation Separation",
+    "problem_url": "https://codeforces.com/contest/1295/problem/E",
+    "submission_id": "CF122391107",
+    "submission_url": "https://codeforces.com/contest/1295/submission/122391107",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "*2200"
+    ],
+    "timestamp": "Jul/14/2021 06:16"
+  },
   "CF124882813": {
     "contest_id": 918,
     "language": "GNU C++17",
