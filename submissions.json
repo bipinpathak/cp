@@ -11450,6 +11450,25 @@
     ],
     "timestamp": "Jul/22/2021 20:29"
   },
+  "CF123307850": {
+    "contest_id": 1553,
+    "language": "GNU C++17",
+    "path": "codeforces/1553/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Penalty",
+    "problem_url": "https://codeforces.com/contest/1553/problem/C",
+    "submission_id": "CF123307850",
+    "submission_url": "https://codeforces.com/contest/1553/submission/123307850",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Jul/22/2021 20:36"
+  },
   "CF123331752": {
     "contest_id": 1553,
     "language": "GNU C++17",
