@@ -9275,6 +9275,25 @@
     ],
     "timestamp": "Jul/14/2021 06:16"
   },
+  "CF124305757": {
+    "contest_id": 1555,
+    "language": "GNU C++17",
+    "path": "codeforces/1555/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Say No to Palindromes",
+    "problem_url": "https://codeforces.com/contest/1555/problem/D",
+    "submission_id": "CF124305757",
+    "submission_url": "https://codeforces.com/contest/1555/submission/124305757",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Jul/30/2021 20:47"
+  },
   "CF124328675": {
     "contest_id": 1555,
     "language": "GNU C++17",
