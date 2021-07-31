@@ -1,4 +1,20 @@
 {
+  "AC24691092": {
+    "contest_id": "abc212",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc212/F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Greedy Takahashi",
+    "problem_url": "https://atcoder.jp/contests/abc212/tasks/abc212_f",
+    "submission_id": "AC24691092",
+    "submission_url": "https://atcoder.jp/contests/abc212/submissions/24691092",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/31/2021 19:09"
+  },
   "AC24705206": {
     "contest_id": "abc212",
     "language": "C++ (GCC 9.2.1)",
