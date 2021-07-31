@@ -1,4 +1,20 @@
 {
+  "AC24652822": {
+    "contest_id": "abc212",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc212/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Weak Password",
+    "problem_url": "https://atcoder.jp/contests/abc212/tasks/abc212_b",
+    "submission_id": "AC24652822",
+    "submission_url": "https://atcoder.jp/contests/abc212/submissions/24652822",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/31/2021 17:37"
+  },
   "AC24657420": {
     "contest_id": "abc212",
     "language": "C++ (GCC 9.2.1)",
