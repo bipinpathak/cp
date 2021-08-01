@@ -11085,6 +11085,28 @@
     ],
     "timestamp": "Aug/01/2021 17:52"
   },
+  "CF124551842": {
+    "contest_id": 1549,
+    "language": "GNU C++17",
+    "path": "codeforces/1549/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Gregor and the Pawn Game",
+    "problem_url": "https://codeforces.com/contest/1549/problem/B",
+    "submission_id": "CF124551842",
+    "submission_url": "https://codeforces.com/contest/1549/submission/124551842",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "flows",
+      "graph matchings",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/01/2021 20:39"
+  },
   "CF124601902": {
     "contest_id": 1549,
     "language": "GNU C++17",
