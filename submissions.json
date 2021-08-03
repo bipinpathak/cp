@@ -11085,6 +11085,23 @@
     ],
     "timestamp": "Aug/01/2021 17:52"
   },
+  "CF124784493": {
+    "contest_id": 1058,
+    "language": "GNU C++17",
+    "path": "codeforces/1058/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Vasya and Good Sequences",
+    "problem_url": "https://codeforces.com/contest/1058/problem/E",
+    "submission_id": "CF124784493",
+    "submission_url": "https://codeforces.com/contest/1058/submission/124784493",
+    "tags": [
+      "brute force",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Aug/03/2021 19:54"
+  },
   "CF124856309": {
     "contest_id": 918,
     "language": "GNU C++17",
