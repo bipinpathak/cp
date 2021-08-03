@@ -11085,6 +11085,23 @@
     ],
     "timestamp": "Aug/01/2021 17:52"
   },
+  "CF124764346": {
+    "contest_id": 989,
+    "language": "GNU C++17",
+    "path": "codeforces/989/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "A Blend of Springtime",
+    "problem_url": "https://codeforces.com/contest/989/problem/A",
+    "submission_id": "CF124764346",
+    "submission_url": "https://codeforces.com/contest/989/submission/124764346",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Aug/03/2021 16:29"
+  },
   "CF124766262": {
     "contest_id": 989,
     "language": "GNU C++17",
