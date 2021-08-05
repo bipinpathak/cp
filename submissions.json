@@ -1,4 +1,20 @@
 {
+  "AC24787269": {
+    "contest_id": "arc124",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc124/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "LCM of GCDs",
+    "problem_url": "https://atcoder.jp/contests/arc124/tasks/arc124_c",
+    "submission_id": "AC24787269",
+    "submission_url": "https://atcoder.jp/contests/arc124/submissions/24787269",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Aug/05/2021 11:52"
+  },
   "AC24799176": {
     "contest_id": "arc123",
     "language": "C++ (GCC 9.2.1)",
