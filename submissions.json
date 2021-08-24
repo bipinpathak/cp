@@ -11140,6 +11140,22 @@
     ],
     "timestamp": "Aug/09/2021 20:14"
   },
+  "CF126815848": {
+    "contest_id": 1059,
+    "language": "GNU C++17",
+    "path": "codeforces/1059/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cashier",
+    "problem_url": "https://codeforces.com/contest/1059/problem/A",
+    "submission_id": "CF126815848",
+    "submission_url": "https://codeforces.com/contest/1059/submission/126815848",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Aug/24/2021 13:01"
+  },
   "CF126816607": {
     "contest_id": 1059,
     "language": "GNU C++17",
