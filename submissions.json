@@ -12611,6 +12611,24 @@
     ],
     "timestamp": "Aug/26/2021 20:36"
   },
+  "CF127103088": {
+    "contest_id": 1562,
+    "language": "GNU C++17",
+    "path": "codeforces/1562/D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "Two Hundred Twenty One (easy version)",
+    "problem_url": "https://codeforces.com/contest/1562/problem/D1",
+    "submission_id": "CF127103088",
+    "submission_url": "https://codeforces.com/contest/1562/submission/127103088",
+    "tags": [
+      "data structures",
+      "dp",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Aug/26/2021 21:22"
+  },
   "CF127344275": {
     "contest_id": 1556,
     "language": "GNU C++17",
