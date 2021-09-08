@@ -35,15 +35,12 @@ ll ncr(ll n, ll r) {
 void pre(int n) {
 	ll x=1;
 	fac.push_back(x);
+    invFac.push_back(modInv(fac.back()));
 	for(ll i=1; i<=n; i++) {
 		x=(x*i)%mod;
 		fac.push_back(x);
+        invFac.push_back(modInv(fac.back()));
 	}
-    invFac.resize(n+1);
-    invFac[n]=modInv(fac[n]);
-    for(int i=n-1; i>=0; i--) {
-        invFac[i]=((i+1)*invFac[i+1])%mod;
-    }
 	return;
 }
 
