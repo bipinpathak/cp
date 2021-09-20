@@ -22,15 +22,16 @@ void solve() {
             extra=x+y-total;
             ans+=extra;
         }
-        ll high=lower_bound(a.begin(), a.end(), x)-lower_bound(a.begin(), a.end(), 0);
-        if(high==n || !(a[high]>=x && a[high]<=total+extra-y)) {
+        ll low=lower_bound(a.begin(), a.end(), x)-lower_bound(a.begin(), a.end(), 0);
+        if(low==n || !(a[low]>=x && a[low]<=total+extra-y)) {
+            ll high=lower_bound(a.begin(), a.end(), total-y)-lower_bound(a.begin(), a.end(), 0);
             ll needed=1e18;
+            low--;
+            if(low!=-1) {
+                needed=min(needed, x-a[low]);
+            }
             if(high!=n) {
                 needed=min(needed, a[high]-total+y);
-            }
-            high--;
-            if(high!=-1) {
-                needed=min(needed, x-a[high]);
             }
             needed-=extra;
             needed=max(needed, (ll)0);
