@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF129694392": {
+    "contest_id": 839,
+    "language": "GNU C++17",
+    "path": "codeforces/839/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Game of the Rows",
+    "problem_url": "https://codeforces.com/contest/839/problem/B",
+    "submission_id": "CF129694392",
+    "submission_url": "https://codeforces.com/contest/839/submission/129694392",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Sep/23/2021 22:06"
+  },
   "CF129695593": {
     "contest_id": 839,
     "language": "GNU C++17",
