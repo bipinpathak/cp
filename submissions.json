@@ -2959,6 +2959,23 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF130103551": {
+    "contest_id": 1579,
+    "language": "GNU C++17",
+    "path": "codeforces/1579/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Casimir's String Solitaire",
+    "problem_url": "https://codeforces.com/contest/1579/problem/A",
+    "submission_id": "CF130103551",
+    "submission_url": "https://codeforces.com/contest/1579/submission/130103551",
+    "tags": [
+      "math",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/28/2021 20:09"
+  },
   "CF130116002": {
     "contest_id": 1579,
     "language": "GNU C++17",
