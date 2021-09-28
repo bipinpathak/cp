@@ -2959,6 +2959,23 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF130116002": {
+    "contest_id": 1579,
+    "language": "GNU C++17",
+    "path": "codeforces/1579/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Shifting Sort",
+    "problem_url": "https://codeforces.com/contest/1579/problem/B",
+    "submission_id": "CF130116002",
+    "submission_url": "https://codeforces.com/contest/1579/submission/130116002",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Sep/28/2021 20:22"
+  },
   "CF130128475": {
     "contest_id": 1579,
     "language": "GNU C++17",
