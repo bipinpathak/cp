@@ -10060,6 +10060,26 @@
     ],
     "timestamp": "Oct/10/2021 15:14"
   },
+  "CF134966101": {
+    "contest_id": 1582,
+    "language": "GNU C++17",
+    "path": "codeforces/1582/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Grandma Capa Knits a Scarf",
+    "problem_url": "https://codeforces.com/contest/1582/problem/C",
+    "submission_id": "CF134966101",
+    "submission_url": "https://codeforces.com/contest/1582/submission/134966101",
+    "tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "strings",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Nov/11/2021 15:13"
+  },
   "CF134969208": {
     "contest_id": 1582,
     "language": "GNU C++17",
