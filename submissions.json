@@ -10060,6 +10060,23 @@
     ],
     "timestamp": "Oct/10/2021 15:14"
   },
+  "CF134965255": {
+    "contest_id": 1582,
+    "language": "GNU C++17",
+    "path": "codeforces/1582/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Luntik and Subsequences",
+    "problem_url": "https://codeforces.com/contest/1582/problem/B",
+    "submission_id": "CF134965255",
+    "submission_url": "https://codeforces.com/contest/1582/submission/134965255",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Nov/11/2021 15:04"
+  },
   "CF134966101": {
     "contest_id": 1582,
     "language": "GNU C++17",
