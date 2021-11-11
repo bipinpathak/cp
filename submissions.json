@@ -2959,6 +2959,23 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF134988505": {
+    "contest_id": 1602,
+    "language": "GNU C++17",
+    "path": "codeforces/1602/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Divine Array",
+    "problem_url": "https://codeforces.com/contest/1602/problem/B",
+    "submission_id": "CF134988505",
+    "submission_url": "https://codeforces.com/contest/1602/submission/134988505",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Nov/11/2021 19:01"
+  },
   "CF134989237": {
     "contest_id": 1602,
     "language": "GNU C++17",
