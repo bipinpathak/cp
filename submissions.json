@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF139758128": {
+    "contest_id": 1620,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1620/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Equal or Not Equal",
+    "problem_url": "https://codeforces.com/contest/1620/problem/A",
+    "submission_id": "CF139758128",
+    "submission_url": "https://codeforces.com/contest/1620/submission/139758128",
+    "tags": [
+      "constructive algorithms",
+      "dsu",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/18/2021 21:09"
+  },
   "CF139763705": {
     "contest_id": 1620,
     "language": "GNU C++20 (64)",
