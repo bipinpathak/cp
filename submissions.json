@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF140056803": {
+    "contest_id": 1619,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1619/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "New Year's Problem",
+    "problem_url": "https://codeforces.com/contest/1619/problem/D",
+    "submission_id": "CF140056803",
+    "submission_url": "https://codeforces.com/contest/1619/submission/140056803",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Dec/20/2021 20:57"
+  },
   "CF140091025": {
     "contest_id": 1619,
     "language": "GNU C++20 (64)",
