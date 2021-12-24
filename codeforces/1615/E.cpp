@@ -60,10 +60,6 @@ void solve() {
                 high=mid;
             }
         }
-        if(low>(n+1)/2) {
-            cout<<n<<" "<<r<<" "<<low<<endl;
-            return;
-        }
         ans=max(ans, val(r, low, n));
     }
     cout<<ans<<endl;
