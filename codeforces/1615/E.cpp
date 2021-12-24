@@ -64,7 +64,7 @@ void solve() {
             cout<<n<<" "<<r<<" "<<low<<endl;
             return;
         }
-        ans=max(ans, val(r, min(b, (ll)(n/2)), n));
+        ans=max(ans, val(r, low, n));
     }
     cout<<ans<<endl;
     return;
