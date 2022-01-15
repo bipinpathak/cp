@@ -11291,6 +11291,25 @@
     ],
     "timestamp": "Dec/24/2021 20:44"
   },
+  "CF142881998": {
+    "contest_id": 1627,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1627/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Not Adding",
+    "problem_url": "https://codeforces.com/contest/1627/problem/D",
+    "submission_id": "CF142881998",
+    "submission_url": "https://codeforces.com/contest/1627/submission/142881998",
+    "tags": [
+      "brute force",
+      "dp",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Jan/15/2022 22:34"
+  },
   "CF142883901": {
     "contest_id": 1627,
     "language": "GNU C++20 (64)",
