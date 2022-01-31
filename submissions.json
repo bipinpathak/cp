@@ -11309,6 +11309,23 @@
     ],
     "timestamp": "Jan/26/2022 20:51"
   },
+  "CF144649732": {
+    "contest_id": 844,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/844/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Rectangles",
+    "problem_url": "https://codeforces.com/contest/844/problem/B",
+    "submission_id": "CF144649732",
+    "submission_url": "https://codeforces.com/contest/844/submission/144649732",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jan/31/2022 18:35"
+  },
   "CF144650192": {
     "contest_id": 349,
     "language": "GNU C++20 (64)",
