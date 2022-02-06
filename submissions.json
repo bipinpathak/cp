@@ -11309,6 +11309,23 @@
     ],
     "timestamp": "Jan/26/2022 20:51"
   },
+  "CF145478262": {
+    "contest_id": 1634,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1634/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fortune Telling",
+    "problem_url": "https://codeforces.com/contest/1634/problem/B",
+    "submission_id": "CF145478262",
+    "submission_url": "https://codeforces.com/contest/1634/submission/145478262",
+    "tags": [
+      "bitmasks",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Feb/07/2022 01:03"
+  },
   "CF145506953": {
     "contest_id": 1633,
     "language": "GNU C++20 (64)",
