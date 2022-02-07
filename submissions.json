@@ -11309,6 +11309,25 @@
     ],
     "timestamp": "Jan/26/2022 20:51"
   },
+  "CF145509945": {
+    "contest_id": 1321,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1321/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Remove Adjacent",
+    "problem_url": "https://codeforces.com/contest/1321/problem/C",
+    "submission_id": "CF145509945",
+    "submission_url": "https://codeforces.com/contest/1321/submission/145509945",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Feb/07/2022 12:51"
+  },
   "CF145511593": {
     "contest_id": 1321,
     "language": "GNU C++20 (64)",
