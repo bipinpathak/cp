@@ -11309,6 +11309,23 @@
     ],
     "timestamp": "Jan/26/2022 20:51"
   },
+  "CF145509185": {
+    "contest_id": 1321,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1321/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Journey Planning",
+    "problem_url": "https://codeforces.com/contest/1321/problem/B",
+    "submission_id": "CF145509185",
+    "submission_url": "https://codeforces.com/contest/1321/submission/145509185",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Feb/07/2022 12:41"
+  },
   "CF145509945": {
     "contest_id": 1321,
     "language": "GNU C++20 (64)",
