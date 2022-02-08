@@ -11328,6 +11328,22 @@
     ],
     "timestamp": "Feb/07/2022 16:25"
   },
+  "CF145601488": {
+    "contest_id": 1199,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1199/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "MP3",
+    "problem_url": "https://codeforces.com/contest/1199/problem/C",
+    "submission_id": "CF145601488",
+    "submission_url": "https://codeforces.com/contest/1199/submission/145601488",
+    "tags": [
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Feb/08/2022 09:20"
+  },
   "CF145602144": {
     "contest_id": 1199,
     "language": "GNU C++20 (64)",
