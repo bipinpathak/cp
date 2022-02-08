@@ -11217,6 +11217,25 @@
     ],
     "timestamp": "Dec/24/2021 20:39"
   },
+  "CF145650721": {
+    "contest_id": 1061,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1061/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "TV Shows",
+    "problem_url": "https://codeforces.com/contest/1061/problem/D",
+    "submission_id": "CF145650721",
+    "submission_url": "https://codeforces.com/contest/1061/submission/145650721",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "Feb/08/2022 19:04"
+  },
   "CF145719570": {
     "contest_id": 1625,
     "language": "GNU C++20 (64)",
