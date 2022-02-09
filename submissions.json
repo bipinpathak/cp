@@ -11217,6 +11217,27 @@
     ],
     "timestamp": "Dec/24/2021 20:39"
   },
+  "CF145729531": {
+    "contest_id": 1625,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1625/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Binary Spiders",
+    "problem_url": "https://codeforces.com/contest/1625/problem/D",
+    "submission_id": "CF145729531",
+    "submission_url": "https://codeforces.com/contest/1625/submission/145729531",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "implementation",
+      "math",
+      "sortings",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Feb/09/2022 14:24"
+  },
   "CF146071185": {
     "contest_id": 1637,
     "language": "GNU C++20 (64)",
