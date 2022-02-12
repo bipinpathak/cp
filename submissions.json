@@ -11217,6 +11217,23 @@
     ],
     "timestamp": "Dec/24/2021 20:39"
   },
+  "CF146105414": {
+    "contest_id": 1637,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1637/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Andrew and Stones",
+    "problem_url": "https://codeforces.com/contest/1637/problem/C",
+    "submission_id": "CF146105414",
+    "submission_url": "https://codeforces.com/contest/1637/submission/146105414",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Feb/12/2022 20:48"
+  },
   "CF146116594": {
     "contest_id": 1637,
     "language": "GNU C++20 (64)",
