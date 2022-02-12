@@ -11217,6 +11217,24 @@
     ],
     "timestamp": "Dec/24/2021 20:39"
   },
+  "CF146116594": {
+    "contest_id": 1637,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1637/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yet Another Minimization Problem",
+    "problem_url": "https://codeforces.com/contest/1637/problem/D",
+    "submission_id": "CF146116594",
+    "submission_url": "https://codeforces.com/contest/1637/submission/146116594",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Feb/12/2022 21:07"
+  },
   "CF146138497": {
     "contest_id": 1637,
     "language": "GNU C++20 (64)",
