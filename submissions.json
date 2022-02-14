@@ -11217,6 +11217,25 @@
     ],
     "timestamp": "Dec/24/2021 20:39"
   },
+  "CF146373665": {
+    "contest_id": 1638,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1638/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Inversion Graph",
+    "problem_url": "https://codeforces.com/contest/1638/problem/C",
+    "submission_id": "CF146373665",
+    "submission_url": "https://codeforces.com/contest/1638/submission/146373665",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Feb/14/2022 20:19"
+  },
   "CF146397265": {
     "contest_id": 1638,
     "language": "GNU C++20 (64)",
