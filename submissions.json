@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF146720467": {
+    "contest_id": 1638,
+    "language": "GNU C++17",
+    "path": "codeforces/1638/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Colorful Operations",
+    "problem_url": "https://codeforces.com/contest/1638/problem/E",
+    "submission_id": "CF146720467",
+    "submission_url": "https://codeforces.com/contest/1638/submission/146720467",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*2400"
+    ],
+    "timestamp": "Feb/17/2022 16:13"
+  },
   "CF147037439": {
     "contest_id": 1635,
     "language": "GNU C++17",
