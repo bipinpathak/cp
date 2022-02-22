@@ -2959,6 +2959,26 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF147337448": {
+    "contest_id": 1644,
+    "language": "GNU C++17",
+    "path": "codeforces/1644/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Expand the Path",
+    "problem_url": "https://codeforces.com/contest/1644/problem/E",
+    "submission_id": "CF147337448",
+    "submission_url": "https://codeforces.com/contest/1644/submission/147337448",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Feb/22/2022 21:37"
+  },
   "CF148301935": {
     "contest_id": 1646,
     "language": "GNU C++17",
