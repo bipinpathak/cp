@@ -2959,6 +2959,24 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF147314811": {
+    "contest_id": 1644,
+    "language": "GNU C++17",
+    "path": "codeforces/1644/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Cross Coloring",
+    "problem_url": "https://codeforces.com/contest/1644/problem/D",
+    "submission_id": "CF147314811",
+    "submission_url": "https://codeforces.com/contest/1644/submission/147314811",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Feb/22/2022 20:46"
+  },
   "CF147337448": {
     "contest_id": 1644,
     "language": "GNU C++17",
