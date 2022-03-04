@@ -2959,6 +2959,26 @@
     ],
     "timestamp": "Feb/20/2022 18:42"
   },
+  "CF148377883": {
+    "contest_id": 1646,
+    "language": "GNU C++17",
+    "path": "codeforces/1646/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Weight the Tree",
+    "problem_url": "https://codeforces.com/contest/1646/problem/D",
+    "submission_id": "CF148377883",
+    "submission_url": "https://codeforces.com/contest/1646/submission/148377883",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "implementation",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Mar/04/2022 22:53"
+  },
   "CF148385556": {
     "contest_id": 1646,
     "language": "GNU C++17",
