@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-186 | [E - Power Board](https://codeforces.com/contest/1646/problem/E) | [GNU C++17](./codeforces/1646/E.cpp) | `brute force` `dp` `math` `number theory` `*2200` | Mar/04/2022 23:54 | 
-185 | [D - Weight the Tree](https://codeforces.com/contest/1646/problem/D) | [GNU C++17](./codeforces/1646/D.cpp) | `constructive algorithms` `dfs and similar` `dp` `implementation` `trees` `*2000` | Mar/04/2022 22:53 | 
+187 | [E - Power Board](https://codeforces.com/contest/1646/problem/E) | [GNU C++17](./codeforces/1646/E.cpp) | `brute force` `dp` `math` `number theory` `*2200` | Mar/04/2022 23:54 | 
+186 | [D - Weight the Tree](https://codeforces.com/contest/1646/problem/D) | [GNU C++17](./codeforces/1646/D.cpp) | `constructive algorithms` `dfs and similar` `dp` `implementation` `trees` `*2000` | Mar/04/2022 22:53 | 
+185 | [C - Factorials and Powers of Two](https://codeforces.com/contest/1646/problem/C) | [GNU C++17](./codeforces/1646/C.cpp) | `bitmasks` `brute force` `constructive algorithms` `dp` `math` `*1500` | Mar/04/2022 21:34 | 
 184 | [F - Sum Sum Max](https://atcoder.jp/contests/abc240/tasks/abc240_f) | [C++ (GCC 9.2.1)](./atcoder/abc240/F.cpp) | `AtCoder` `*500` | Feb/20/2022 18:42 | 
 183 | [E - Ranges on Tree](https://atcoder.jp/contests/abc240/tasks/abc240_e) | [C++ (GCC 9.2.1)](./atcoder/abc240/E.cpp) | `AtCoder` `*500` | Feb/20/2022 17:57 | 
 182 | [D - Strange Balls](https://atcoder.jp/contests/abc240/tasks/abc240_d) | [C++ (GCC 9.2.1)](./atcoder/abc240/D.cpp) | `AtCoder` `*400` | Feb/20/2022 17:44 | 
