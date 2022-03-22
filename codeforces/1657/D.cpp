@@ -6,6 +6,8 @@ void solve() {
     int n, totalCoins;
     cin>>n>>totalCoins;
     vector<ll> pick(totalCoins+1), best(totalCoins+1);
+    vector<vector<int>> update(totalCoins+1);
+    map<ll, int> active;
     while(n--) {
         int c, d, h;
         cin>>c>>d>>h;
