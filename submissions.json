@@ -18749,6 +18749,24 @@
     ],
     "timestamp": "Mar/04/2022 23:54"
   },
+  "CF151631898": {
+    "contest_id": 1279,
+    "language": "GNU C++17",
+    "path": "codeforces/1279/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Santa's Bot",
+    "problem_url": "https://codeforces.com/contest/1279/problem/D",
+    "submission_id": "CF151631898",
+    "submission_url": "https://codeforces.com/contest/1279/submission/151631898",
+    "tags": [
+      "combinatorics",
+      "math",
+      "probabilities",
+      "*1700"
+    ],
+    "timestamp": "Apr/01/2022 11:36"
+  },
   "CF152637896": {
     "contest_id": 1207,
     "language": "GNU C++17",
